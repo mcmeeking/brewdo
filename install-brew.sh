@@ -143,13 +143,8 @@ _brew ALL=(ALL) NOPASSWD: ALL" | sudo EDITOR='tee -a' visudo
 tmphome=\$(mktemp -d /tmp/_brew.XXXXXX)
 chown -R _brew \$tmphome
 cd \$tmphome || exit 1
-if [ \"\$1\" = \"cask\" ] && [ \"\$2\" != \"remove\" ]; then
-    CASK_ARGS='--appdir=\"/Applications\" --prefpanedir=\"/Library/PreferencePanes\" --qlplugindir=\"/Library/QuickLook\" --servicedir=\"/Library/Services\"'
-else
-    CASK_ARGS=''
-fi
 HOMEBREW_LOGS=/var/log/homebrew.log
-sudo -u _brew HOME=\${tmphome} /usr/local/bin/brew \$@ \$CASK_ARGS
+sudo -u _brew HOME=\${tmphome} /usr/local/bin/brew \$@
 " > /usr/local/bin/brewdo
 
     chmod +x /usr/local/bin/brewdo
