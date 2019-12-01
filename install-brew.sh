@@ -144,7 +144,7 @@ tmphome=\$(mktemp -d /tmp/_brew.XXXXXX)
 chown -R _brew \$tmphome
 cd \$tmphome || exit 1
 if [ \"\$1\" = \"cask\" ] && [ \"\$2\" != \"remove\" ]; then
-    CASK_ARGS='--appdir=\"/Applications\" --prefpanedir=\"/Library/PreferencePanes\" --qlplugindir=\"/Library/QuickLook\" --servicedir=\"/Library/Services\" --internet_plugindir=\"/Library/Internet Plug-Ins\"'
+    CASK_ARGS='--appdir=\"/Applications\" --prefpanedir=\"/Library/PreferencePanes\" --qlplugindir=\"/Library/QuickLook\" --servicedir=\"/Library/Services\"'
 else
     CASK_ARGS=''
 fi
