@@ -2,8 +2,8 @@
 
 # Script to install Homebrew on a Mac.
 # Author: richard at richard - purves dot com
-# Version: 1.0 - 21st May 2017
-# Updated: 2019-11-17 - James McMeeking - james@jigsaw24.com
+# Version: 2.0 - 2019-11-17
+# Updated: James McMeeking - james@jigsaw24.com
 
 # Let's start here by caffinating the mac so it stays awake or bad things happen.
 caffeinate -d -i -m -u &

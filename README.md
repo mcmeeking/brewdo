@@ -15,14 +15,15 @@ The [`install-brew.sh`](install-brew.sh) script performs the following actions:
 5. Install an executable `brewdo` in `/usr/local/bin` - This becomes the "`sudo`-ised" `brew` command which the additional scripts use to install and manage packages
 6. Installs `md5sha1sum` for automatic checksum verification of formulae/casks, and `python3` which is optional but recommended
 
-Once installed, `brew` can be invoked using the following sequence:
+Once installed, `brew` can be invoked using the following sequence as root:
 
 ```bash
 # Elevate _brew to admin
 dscl /Local/Default -append /groups/admin GroupMembership "_brew"
 
-brewdo
+brewdo # Whatever arguments you'd normally give brew
 
+# Relegate back to standard user
 dscl /Local/Default -delete /groups/admin GroupMembership "_brew"
 ```
 
