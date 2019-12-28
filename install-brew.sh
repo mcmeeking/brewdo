@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 
 # Script to install Homebrew on a Mac.
 # Author: richard at richard - purves dot com

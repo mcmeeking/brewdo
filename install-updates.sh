@@ -9,6 +9,5 @@ brewdo update
 brewdo upgrade
 brewdo cask upgrade
 brewdo cleanup
-brewdo cask cleanup
 
 dscl /Local/Default -delete /groups/admin GroupMembership "_brew"
