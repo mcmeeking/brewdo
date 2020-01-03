@@ -45,3 +45,9 @@ Example scripts are included for deploying and uninstalling apps and command-lin
 ## Extension Attribute
 
 The extension attribute included in this repo presents the number of cask updates available, and can be used in conjuction with the [`install-updates.sh`](install-updates.sh) script to patch all Homebrew-installed apps on the machine via policy.
+
+## Credits
+
+Original credit for the install script goes to Richard Purves (<richard@richard-purves.com>)
+
+Original credit for the "brewdo" name, and sandoxing process goes to Matt Behrens (<matt@zigg.com>)
