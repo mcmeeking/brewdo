@@ -27,6 +27,8 @@ brewdo # Whatever arguments you'd normally give brew
 dscl /Local/Default -delete /groups/admin GroupMembership "_brew"
 ```
 
+It can also be called locally by any system admin using `sudo brewdo ...`
+
 Arguments passed to `brewdo` are passed 1:1 to `brewdo`, so `sudo brewdo cask install google-chrome` on a machine `brewdo` is installed on is equivalent to `brew cask install google-chrome` on a personal machine which only has `brew`.
 
 ## Terminology
@@ -50,4 +52,4 @@ The extension attribute included in this repo presents the number of cask update
 
 Original credit for the install script goes to Richard Purves (<richard@richard-purves.com>)
 
-Original credit for the "brewdo" name, and sandoxing process goes to Matt Behrens (<matt@zigg.com>)
+Original credit for the "brewdo" name, and sandoxing process goes to Mattie Behrens ([@zigg](https://github.com/zigg))
