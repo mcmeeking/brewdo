@@ -1,4 +1,6 @@
 # brewdo
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmcmeeking%2Fbrewdo.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmcmeeking%2Fbrewdo?ref=badge_shield)
+
 
 Homebrew is an immensely useful package manager for macOS, but has always presented issues for multi-user machines and deployment via enterprise tools like Jamf Pro.
 
@@ -53,3 +55,7 @@ The extension attribute included in this repo presents the number of cask update
 Original credit for the install script goes to Richard Purves (<richard@richard-purves.com>)
 
 Original credit for the "brewdo" name, and sandoxing process goes to Mattie Behrens ([@zigg](https://github.com/zigg))
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmcmeeking%2Fbrewdo.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmcmeeking%2Fbrewdo?ref=badge_large)
